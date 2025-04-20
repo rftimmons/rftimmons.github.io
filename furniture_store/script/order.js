@@ -1,14 +1,14 @@
 const items = {
-    "Oak Dining Table": 300,
-    "Leather Sofa": 900,
-    "Wooden Coffee Table": 150,
-    "Metal Bookshelf": 100,
-    "Queen-sized Bed Frame": 400,
-    "Office Chair": 95,
-    "Glass TV Stand": 250,
-    "Rustic Nightstand": 200,
-    "Leather Accent Chair": 450,
-    "Modern Wardrobe": 300
+    "Children's Modular Dresser": 300,
+    "Adjustable King Bed Frame": 1200,
+    "Oak TV Entertainment Center": 550,
+    "Sectional Sofa": 2500,
+    "Camouflage Recliner": 400,
+    "Acrylic Night Stand": 225,
+    "Coffee Table": 275,
+    "Children's Bunk Bed": 900,
+    "Cherry Wood Bar": 2500,
+    "Area Rug": 200
   };
   
   const table = document.getElementById("furnitureTable");
