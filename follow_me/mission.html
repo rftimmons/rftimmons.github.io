@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- 
+    Follow Me!
+    C430 Final
+    Student Name: Ryan Timmons
+	 File Name: contact.html
+	 Date: 4/29/2025
+	 -->
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="follow_me_reset.css">
+	<link rel="stylesheet" href="follow_me_layout.css">
+	<link rel="stylesheet" href="follow_me.css">
+	<link rel="stylesheet" href="mission_calendar.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<title>Follow Me!</title>	
+	<center><img src="images/cib.png" alt="Combat Infantry Badge" width="600" height="200"></center>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">  
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">  
+    <link rel="apple-touch-icon" sizes="180x180" href="images/appletouch-icon.png">  
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+</head>
+
+<body>
+<!-- Header area for the website name and nav-->
+	<header>
+		<h1> &#8606; Follow Me! &#8608;</h1>
+
+		<!-- Mobile Nav -->
+		<nav class= "mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="mission.html">Mission</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+	<!-- Desktop Nav -->
+		<nav class="desk">
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "mission.html">Mission</a></li>
+				<li><a href = "contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- Main area !-->
+
+    <!-- Main Content -->
+    <main>
+		
+		<section id="left">
+			<article>
+				<div class="calendar-container">
+					<header class="calendar-header">
+						<p class="calendar-current-date"></p>
+						<div class="calendar-navigation">
+							<span id="calendar-prev" 
+								  class="material-symbols-rounded">
+								
+							</span>
+							<span id="calendar-next" 
+								  class="material-symbols-rounded">
+								
+							</span>
+						</div>
+					</header>
+			
+					<div class="calendar-body">
+						<ul class="calendar-weekdays">
+							<li>Sun</li>
+							<li>Mon</li>
+							<li>Tue</li>
+							<li>Wed</li>
+							<li>Thu</li>
+							<li>Fri</li>
+							<li>Sat</li>
+						</ul>
+						<ul class="calendar-dates"></ul>
+					</div>
+				</div>
+				<script src="mission_calendar.js"></script>
+			</article>
+		</section>
+		
+		<section id="right">
+			<article>
+				<p>Please take a look at our calendar and come meet 
+					with us! We would love to get to know you at 
+					one of our monthly meetups or special events.
+					Whether you are looking to network, or simply
+					looking for some support, please come join us!
+				</p>	
+			</article>
+		</section>
+		
+	</main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Follow Me! | contact@followme.com |555-555-5555</p>
+	</footer>
+</body>
+
+</html>

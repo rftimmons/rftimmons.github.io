@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*
+   Follow Me!
+   C430 FInal
+   
+   Ryan Timmons
+   
+   Filename: follow_me.css
+
+*/
+
+/* Class Stying */
+ 
+
+html {
+   background-color:#DDeBD1;
+   font-size: 2em;
+   font-family:'Times New Roman', serif;
+   }
+
+   body {
+   background-color:#4f772d;
+   margin: 25px 25px;
+   width: 85%;
+   max-width: 1600px;
+   min-width: 720px;
+   }
+   
+   /*Body and Header Styles*/
+   body > header {
+   background-color:#31572c;
+   height: 100px;
+   position: relative;
+   }
+   
+   header > h1 {
+	   padding-top: 10px;
+	   font-size: 1.5em;
+	   text-align: center;
+   }
+   
+   /*Links */
+   
+   header > nav.desk li {
+   font-family:'Times New Roman', serif ;
+   font-size: 1em;
+   
+   padding-left: 20px;
+   width: 40%;
+   text-align: center;
+   display: inline;
+   }
+   
+   .mobile-nav a, .mobile-nav a.menuicon, #menu-links {
+	   display: none;
+   }
+   
+   #headline {
+	font-family: "Times New Roman", sans-serif;
+	text-decoration: none;
+	font-size: 1.5em;
+	margin-top: 10px;
+	text-align: right;
+	padding-bottom: 1px;
+   padding-right: 150px;
+	width: 100%;
+}
+   
+   #left article {
+	   font-size: .5em;
+	   text-align: center;
+	   padding-top: 20px;
+   }
+   
+   #right article {
+	   font-size: 1em;
+	   text-align: center;
+	   padding-top: 20px;
+   }
+   /*footer style */
+   footer {
+	  background-color: #31572c;
+     font-size: .5em;
+   }
